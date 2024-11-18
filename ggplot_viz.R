@@ -23,3 +23,14 @@ ggplot(data = penguins, aes(flipper_length_mm, body_mass_g, colour = species)) +
   )
 
 # Add caption about data Source
+ggplot(data = penguins, aes(flipper_length_mm, body_mass_g, colour = species)) +
+  geom_point() +
+  geom_smooth() +
+  facet_wrap(~species) +
+  labs(title = "Visualization of Palmer Archipelago Penguin Data",
+       subtitle = "Flipper length Vs Body mass",
+       x = "Flipper Length (in mm)",
+       y = "Boddy Mass (in grams)",
+       colour = "Species Type",
+       caption = "Data: 'Palmerpenguins' R package"
+  )
