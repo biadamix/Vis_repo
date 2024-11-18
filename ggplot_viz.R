@@ -34,3 +34,12 @@ ggplot(data = penguins, aes(flipper_length_mm, body_mass_g, colour = species)) +
        colour = "Species Type",
        caption = "Data: 'Palmerpenguins' R package"
   )
+
+# Density of Flipper length across species
+ggplot(data = penguins, aes(flipper_length_mm, colour = species)) +
+  geom_density()
+
+ggplot(data = penguins, aes(flipper_length_mm, fill = species)) +
+  geom_density()
+
+
