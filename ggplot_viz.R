@@ -3,12 +3,15 @@
 library(tidyverse)
 library(palmerpenguins)
 
-
+# View the data
 View(penguins)
+
+#simple point plot
 ggplot(data = penguins, aes(flipper_length_mm, body_mass_g, colour = species)) +
   geom_point() +
   geom_smooth()
 
+# add more readability
 ggplot(data = penguins, aes(flipper_length_mm, body_mass_g, colour = species)) +
   geom_point() +
   geom_smooth() +
