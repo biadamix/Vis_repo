@@ -1,3 +1,3 @@
-# Test repository visualizing Penguins data in R
+# Test repository visualizing data in R
 
-This repo visualizes some of the variables in the penguins data using ggplot 2 package
+This repo visualizes some of the variables in the palmerpenguins data using ggplot 2 package
