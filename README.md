@@ -2,4 +2,4 @@
 
 This repo visualizes some of the variables in the palmerpenguins data using ggplot2 package.
 
-learn more about the palmerpenguins data [here](https://allisonhorst.github.io/palmerpenguins/)
+Learn more about the palmerpenguins data [here](https://allisonhorst.github.io/palmerpenguins/)
