@@ -1,3 +1,3 @@
-# Vis_repo
+# Test repository visualizing Penguins data in R
 
-This repo visualizes some of the variables in the penguins data from the Palmerpenguins R package
+This repo visualizes some of the variables in the penguins data using ggplot 2 package
