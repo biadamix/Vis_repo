@@ -1,5 +1,4 @@
-# Test repository visualizing data in R
-
+# Test repository
 
 This is test repository hosts visualization of some of the variables in the palmerpenguins data using ggplot2 package.
 
